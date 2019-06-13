@@ -19,7 +19,7 @@ class Student < User
     @knowledge = []
   end
     
-  def learn
+  def learn     # takes in a string and adds that string ot the studetn's @knowledge
     
   end
 end
