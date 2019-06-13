@@ -19,7 +19,11 @@ class Student < User
     @knowledge = []
   end
     
-  def learn     # takes in a string and adds that string ot the studetn's @knowledge
-    
+  def learn(string)     # takes in a string and adds that string ot the studetn's @knowledge
+    @knowledge << string
+  end
+  
+  def knowledge         # returns that student's knowledge array
+    @knowledge
   end
 end
