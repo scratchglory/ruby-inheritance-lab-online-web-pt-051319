@@ -14,6 +14,8 @@
 =end
 
 class Student < User
+  
+  def initialize 
   def first_name
   end
 end
